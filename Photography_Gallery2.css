@@ -1,0 +1,56 @@
+body {
+
+	margin: 0px;
+
+}
+.best {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+
+.heading {
+	font-family: 'Sriracha', cursive;
+}
+.icon {
+
+	border-bottom: 2px solid black;
+	padding-right: 10px;
+}
+.fbicon {
+	
+	display: flex;
+	justify-content: right;
+	margin-top: -70px;
+	margin-right: 50px;
+}
+.instaicon {
+	display: flex;
+	justify-content: right;
+	margin-top: -48px;
+
+}
+h2 {
+
+	font-family: fantasy;
+	font-size: 3em;
+	border-bottom: 2px solid #DF73B0;
+	border-right: 2px solid #DF73B0 ;
+	width: 400px;
+	text-align: center;
+	box-shadow: 4px 4px 5px #888888;
+}
+
+
+
+.picks {
+	width: 600px;
+	height: 400px;
+	margin: auto;
+	transition: all 1s;
+}
+
+.picks:hover {
+	transform: scale(1.1);
+}
